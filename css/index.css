@@ -1,0 +1,97 @@
+#logo {
+width: 35px; height: 35px;
+}
+
+
+#sideNevigationLogo{
+	width: 285px; 
+	height: 200px;
+}
+
+#icon-s {
+	height:100px;
+	width:100px;
+}
+
+@media only screen and (max-width: 500px) {
+   #posters {
+     min-height: 150px ! important;
+     height: 150px ! important;
+   }
+ }  @media only screen and (min-width: 500px) {
+   #posters {
+     min-height: 350px ! important;
+     height:350px ! important;
+   }
+ }
+
+
+#service {
+	font-size:13px; margin-left:2px;
+}
+
+
+
+
+
+#news1 {
+	font-size:12px;
+}
+
+
+
+
+#Market {
+    font-size:13px; margin-top:-18px;
+}
+
+
+
+
+
+
+
+#yello-row {
+	margin-top:-20px;
+}
+
+
+#c2 {
+	height: 400px;
+}
+
+
+
+
+#xyz1 {
+	font-size: 16px;
+}
+
+#xyz2 {
+	font-size: 16px;
+}
+
+#xyz3 {
+	font-size: 16px;
+}
+
+#xyz4 {
+	font-size: 16px;
+}
+
+#xyz5 {
+	font-size: 16px;
+}
+
+#xyz6 {
+	font-size: 16px;
+}
+
+#xyz7 {
+	font-size: 16px;
+}
+
+
+#bluerow {
+	margin-top:-20px;
+}
