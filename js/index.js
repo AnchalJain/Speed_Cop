@@ -1,5 +1,5 @@
-$(".button-collapse").sideNav({menuWidth:285}); 
-			
+$(".button-collapse").sideNav({menuWidth:285});
+
 
             carousel();
 			function carousel() {
@@ -7,5 +7,7 @@ $(".button-collapse").sideNav({menuWidth:285});
                     $('.carousel.carousel-slider').carousel({fullWidth: true});
 			 });
 			 $('.carousel').carousel('next');
-			setTimeout(carousel,2000);	
+			setTimeout(carousel,2000);
 			}
+
+			
