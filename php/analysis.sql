@@ -18,3 +18,16 @@ CREATE TABLE IF NOT EXISTS `analysis` (
   (10, 'MH01AE4567', '45', 'Under Speed Limit'),
   (11, 'UKPL8TE', '55', 'Under Speed Limit'),
   (12, 'MH012DE1433', '70', 'Over Speed Limit');
+
+  CREATE TABLE user_info
+  (
+  userID int(9) NOT NULL auto_increment,
+  firstname VARCHAR(50) NOT NULL,
+  lastname VARCHAR(40) NOT NULL,
+  email VARCHAR(40) NOT NULL,
+  password VARCHAR(40) NOT NULL,
+  contact int(10) NOT NULL,
+  pan int(12),
+  vechicle VARCHAR(50),
+  PRIMARY KEY(userID)
+  );
