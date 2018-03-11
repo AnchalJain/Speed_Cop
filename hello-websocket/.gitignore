@@ -3,4 +3,4 @@ diagram.png
 README.rst
 requirements.txt
 systemd
-
+sudo modprobe bcm2835-v4l2
