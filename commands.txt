@@ -1,0 +1,6 @@
+### Send video from raspberry pi  replace ip address with the ip of your ubuntu machine
+raspivid -t 0  -ih -w 1024 -h 768 -o - | nc 192.168.1.41 5001
+
+
+### recieve video from raspberry pi
+nc -l -p 5001 | python file.py
