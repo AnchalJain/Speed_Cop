@@ -45,7 +45,15 @@ function googleTranslateElementInit() {
     <nav class="white">
 
       <div style="margin-right:15px;" class="right">
-			<a href="login_signup1.html" id="login" class="right black-text" style="margin-right:13px;">Login</a>
+			<a href="login_signup1.html" id="login" class="right black-text" style="margin-right:13px;">
+        <?php if( isset($_SESSION['username']) && !empty($_SESSION['username']) )
+        {?>
+            <a href="logout.php">Logout</a>
+          <?php }else{ ?>
+            <a href="login.php">Login</a>
+            <a href="register.php">Register</a>
+          <?php } ?>
+</a>
 		    <a href="tel:123456789" class="right" ><i class="material-icons black-text" style="margin-right:10px; margin-top:2px;">call</i></a>
 		</div>
 
