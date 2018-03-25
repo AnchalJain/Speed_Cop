@@ -101,16 +101,19 @@
       var contact= $('#contact').val();
       var dob= $('.datepicker').val();
       var aadhar=" ";
+      var vechicle = " ";
       // var vechicle= $('#vechicle').val();
       var pan= $('#pan').val();
       //validate the form
       if(first_name == '' || last_name == '' || email == '' || password == '' || contact == ''){
         $('.msg').text('Please fill the form');
       }else{
-        if(if_record_exist == false){
+        if(1 == 1){
         $('.msg').html("<div class='preloader-wrapper small active'><div class='spinner-layer spinner-green-only'><div class='circle-clipper left'><div class='circle'></div></div><div class='gap-patch'><div class='circle'></div></div><div class='circle-clipper right'><div class='circle'></div></div></div></div>");
         //jQuery ajax post method with
-        $.post('php/adduser.php', {email:email, password:password, first_name:first_name, last_name:last_name, contact:contact, dob:dob, aadhar:aadhar, vehicle:vehicle, pan:pan}, function(resp){
+        alert("in adduser.php");
+        alert(email + " " + aadhar + "  " + contact + "  " + last_name);
+        $.get('php/adduser.php', {email:email, password:password, first_name:first_name, last_name:last_name, contact:contact, dob:dob, aadhar:aadhar, vehicle:vehicle, pan:pan}{
           if(resp == "done"){
             $(document).ready(function(){
               $('ul.tabs').tabs('select_tab', '#login_form');
@@ -276,7 +279,7 @@ function googleTranslateElementInit() {
 
         <!--    <div class="row">
               <div class="input-field col s12">
-                <input type="text" class="datepicker">
+                <input type="text" class="dateicker">
                 <label for="dob">Date-of-Birth (required)</label>
               </div>
             </div>
