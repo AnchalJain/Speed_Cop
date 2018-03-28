@@ -14,14 +14,8 @@
         $result = mysqli_fetch_array($qry);
 	$numrows  = mysqli_num_rows($qry);
 
- // if($numrows > 0 && $result['active'] == 1) {
- 	$_SESSION['email'] = $email;
+
+		$_SESSION['email'] = $email;
 		echo "cool";
-	// } elseif ($numrows > 0 && $result['active'] == 0) {
-	// 	echo "not_activated";
-	// }
-	// else {
-	// 	echo "invalid";
-	// }
 
 ?>
