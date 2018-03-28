@@ -131,7 +131,7 @@ function googleTranslateElementInit() {
     </div>
     <div class="col s6 m6 l6 " >
          <div class="center-align"><br><br>
-        <a href="pre.html"> <img src="images/chart.png" id="icon-s"></a>
+        <a href="chart.html"> <img src="images/chart.png" id="icon-s"></a>
          <div><p class="center-align" id="service">Chart</p></div>
          </div>
     </div>
@@ -152,7 +152,7 @@ function googleTranslateElementInit() {
 
     <div class="col s6 m6 l6 " >
          <div class="center-align">
-         <a href = "currency.html"><img src="images/challen.jpeg" id="icon-s"></a>
+         <a href = "bill.html"><img src="images/challen.jpeg" id="icon-s"></a>
          <div><p class="center-align" id="service">E-challan</p>
             <p class="center-align" id="Market"><b><br></b></p></div>
          </div>
