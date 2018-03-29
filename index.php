@@ -124,14 +124,14 @@ function googleTranslateElementInit() {
 
             <div class="col s6 m6 l6 " >
          <div class="center-align"><br><br>
-       <a href="php/analysis.php"> <img src="images/speed.png" id="icon-s"></a>
+       <a href="php/analysis.php"> <img src="images/speeds.png" id="icon-s"></a>
          <div><p class="center-align" id="service">Speed Analysis</p>
      <b><br></b></p></div>
          </div>
     </div>
     <div class="col s6 m6 l6 " >
          <div class="center-align"><br><br>
-        <a href="chart.html"> <img src="images/chart.png" id="icon-s"></a>
+        <a href="chart.html"> <img src="images/charts.png" id="icon-s"></a>
          <div><p class="center-align" id="service">Chart</p></div>
          </div>
     </div>
@@ -152,7 +152,7 @@ function googleTranslateElementInit() {
 
     <div class="col s6 m6 l6 " >
          <div class="center-align">
-         <a href = "bill.html"><img src="images/challen.jpeg" id="icon-s"></a>
+         <a href = "bill.html"><img src="images/challan.png" id="icon-s"></a>
          <div><p class="center-align" id="service">E-challan</p>
             <p class="center-align" id="Market"><b><br></b></p></div>
          </div>
@@ -168,7 +168,7 @@ function googleTranslateElementInit() {
         <div class="col s6 m6 l6 " >
          <div class="center-align">
          <a href="financial_astrology_subs.html">
-         <img src="images/fastag.jpeg" id="icon-s"></a>
+         <img src="images/fastag.png" id="icon-s"></a>
          <div><p class="center-align" id="service">Fast Tag</p>
             <p class="center-align" id="Market"><b><br></b></p></div>
          </div>
