@@ -74,8 +74,8 @@
     });
 
     //check if the email is already registered!!
-    $('#email-new').blur(function(){
-      var email    = $('#email-new').val();
+    $('#email').blur(function(){
+      var email    = $('#email').val();
 
       $('.msg').html('');
 
@@ -94,31 +94,31 @@
     //when click Signup button
     $('#signup').click(function(){
       //get the values
-      var email    = $('#email-new').val();
-      var password = $('#password-new').val();
-      var first_name= $('#first_name').val();
-      var last_name= $('#last_name').val();
+      var email    = $('#email').val();
+      var password = $('#password').val();
+      var firstname= $('#firstname').val();
+      var lastname= $('#lastname').val();
       var contact= $('#contact').val();
-      var dob= $('.datepicker').val();
+
       var vechicle= $('#vechicle').val();
       var pan= $('#pan').val();
       //validate the form
-      if(first_name == '' || last_name == '' || email == '' || password == '' || contact == ''){
+      if(firstname == '' || lastname == '' || email == '' || password == '' || contact == ''){
         $('.msg').text('Please fill the form');
       }else{
         if(if_record_exist == false){
         $('.msg').html("<div class='preloader-wrapper small active'><div class='spinner-layer spinner-green-only'><div class='circle-clipper left'><div class='circle'></div></div><div class='gap-patch'><div class='circle'></div></div><div class='circle-clipper right'><div class='circle'></div></div></div></div>");
         //jQuery ajax post method with
-        $.post('php/adduser.php', {email:email, password:password, first_name:first_name, last_name:last_name, contact:contact, dob:dob, aadhar:aadhar, vechicle:vechicle, pan:pan}, function(resp){
+        $.post('php/adduser.php', {email:email, password:password, firstname:firstname, lastname:lastname, contact:contact, vechicle:vechicle, pan:pan}, function(resp){
           if(resp == "done"){
             $(document).ready(function(){
               $('ul.tabs').tabs('select_tab', '#login_form');
             });
             $('.msg').html('GREAT!! Signed up. Activate your account and login.');
-            $('#email-new').val('');
-            $('#password-new').val('');
-            $('#first_name').val('');
-            $('#last_name').val('');
+            $('#email').val('');
+            $('#password').val('');
+            $('#firstname').val('');
+            $('#lastname').val('');
             $('#contact').val('');
            // $('.datepicker').val('');
             //$('#aadhar').val('');
