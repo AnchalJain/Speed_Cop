@@ -157,13 +157,7 @@ function googleTranslateElementInit() {
             <p class="center-align" id="Market"><b><br></b></p></div>
          </div>
     </div>
-    <div class="col s6 m6 l6">
-         <div class="center-align"><a href = "basemetals.html">
-         <img src="images/Payment.png" id="icon-s"></a>
-         <div><p class="center-align" id="service">Payment</p>
-            <p class="center-align" id="Market"><b><br></b></p></div>
-         </div>
-    </div>
+
 
         <div class="col s6 m6 l6 " >
          <div class="center-align">
@@ -173,13 +167,7 @@ function googleTranslateElementInit() {
             <p class="center-align" id="Market"><b><br></b></p></div>
          </div>
     </div>
-        <div class="col s6 m6 l6 " >
-         <div class="center-align"><a href = "rashi.html">
-         <img src="images/rashi_phal.png" id="icon-s"></a>
-         <div><p class="center-align" id="service">Kholi</p>
-            <p class="center-align" id="Market"><b><br></b></p></div>
-         </div>
-    </div>
+
 
 </div>
 
