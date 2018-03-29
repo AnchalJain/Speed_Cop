@@ -20,9 +20,10 @@
 // 	}
 // else
 // {
-$sql = " insert into user_info (email,password,firstname,lastname,contact,vechicle,pan) values ('$email','$password','$fname', '$lname', '$contact','$vechicle','$pan');";
+$sql = "insert into user_info (email, password, firstname, lastname, contact, vechicle, pan) values ('$email','$password','$fname', '$lname', '$contact','$vechicle','$pan');";
 	$qry = mysqli_query($link, $sql);
         $to      = $email;
+
         $subject = 'Signup | Verification';
         $message = '
 
@@ -39,6 +40,9 @@ https://ajayastromoneyguru.com/php/verify.php?email='.$email.'&hash='.$hash.'';
 
 	if($qry){
 		echo "done";
+	}
+	else {
+		echo "not done";
 	}
 
 
