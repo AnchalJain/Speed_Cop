@@ -109,7 +109,7 @@
         if(if_record_exist == false){
         $('.msg').html("<div class='preloader-wrapper small active'><div class='spinner-layer spinner-green-only'><div class='circle-clipper left'><div class='circle'></div></div><div class='gap-patch'><div class='circle'></div></div><div class='circle-clipper right'><div class='circle'></div></div></div></div>");
         //jQuery ajax post method with
-        $.post('php/adduser.php', {email:email, password:password, firstname:firstname, lastname:lastname, contact:contact, vechicle:vechicle, pan:pan}, function(resp){
+        $.post('./php/adduser.php', {email:email, password:password, firstname:firstname, lastname:lastname, contact:contact, vechicle:vechicle, pan:pan}, function(resp){
           if(resp == "done"){
             $(document).ready(function(){
               $('ul.tabs').tabs('select_tab', '#login_form');
